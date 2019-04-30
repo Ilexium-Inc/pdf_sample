@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "diagnostics": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": [],
+  "include": ["./ts/**/*.ts", "../typescript definitions/**/*.d.ts"]
+}

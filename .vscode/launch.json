@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "env": {
+        "PDF_FILE_NAME_AND_PATH": "Downloads/redshift-api.pdf"
+      },
+      "name": "Launch Parser",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "program": "${workspaceFolder}/source/ts/pdf-parser-application.js",
+      "request": "launch",
+      "type": "node"
+    },
+    {
+      "env": {
+        "PDF_FILE_NAME_AND_PATH": "Downloads/redshift-api.pdf"
+      },
+      "name": "Launch PDF to Text Parser",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "program": "${workspaceFolder}/source/ts/pdf-to-text-parser-application.js",
+      "request": "launch",
+      "type": "node"
+    }
+  ]
+}

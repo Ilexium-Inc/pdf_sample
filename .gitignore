@@ -1,0 +1,30 @@
+########################################################################################
+##  .gitignore
+##  The gitignore file.
+##  Created on:             2019-04-24
+##  Original author: W. Alex Livesley
+##  Copyright 2019 by Entitech., CA, USA. All Rights Reserved.
+#########################################################################################
+
+## Node Modules
+node_modules/
+npm-debug.log
+
+## Environment files
+.env
+
+## Build artifacts
+**/ts/**/*.d.ts
+**/ts/**/*.js
+**/ts/**/*.jsx
+*.map
+**/dist
+**/styles/**/*.css
+graphql/output
+
+## General Files
+*.iso
+*.bak
+*.min*
+*.zip
+.env

@@ -1,0 +1,23 @@
+{
+  "author": "W. Alex Livesley <alex.livesley@ilexium.com>",
+  "contributors": [],
+  "description": "A sampel to build PDF.",
+  "directories": {},
+  "engines": {
+    "node": ">= 9.4.0"
+  },
+  "homepage": "https://s",
+  "keywords": [],
+  "license": "Unlicense",
+  "main": "./source/ts/index.js",
+  "name": "@entitech/pdf-sample",
+  "repository": {},
+  "scripts": {},
+  "version": "2019.04.03",
+  "dependencies": {
+    "@types/node": "^11.13.7",
+    "pdf2json": "^1.1.8",
+    "stringifystream": "^1.0.5",
+    "typescript": "^3.4.5"
+  }
+}
